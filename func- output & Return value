@@ -1,0 +1,33 @@
+function getMilk(money) { 
+ console. log("leavehouse");
+ console. log("moveRight");
+ console. log("moveRight");
+ console. log("moveUP");
+ console. log("moveUP");
+ console. log("moveUP");
+ console. log("moveUP");
+ console. log("moveRight");
+ console. log("moveRight");
+ 
+ console. log("buy "  + calcBottles(money, 1.6) +  " bottles of Milk");
+ console. log("moveleft");
+ console. log("moveleft");
+ console. log("moveDown");
+ console. log("moveDown");
+ console. log("moveDown");
+ console. log("moveDown");
+ console. log("moveleft");
+ console. log("moveleft");
+ console. log("enterHouse");
+
+ return calChange(money, 1.5);
+}
+function calcBottles(startingMoney, CostPerBottle){
+     var noofbottles = Math.floor(startingMoney, CostPerBottle);
+ return noofbottles;
+}
+function calChange(startingAmount, CostPerBottle){
+    var change = startingAmount % CostPerBottle;
+    return change
+}
+console.log("Hlo mam, here is your " + getMilk(10) + "  balance.");
