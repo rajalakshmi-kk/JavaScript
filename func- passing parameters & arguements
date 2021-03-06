@@ -9,7 +9,7 @@ function getMilk(money) {
  console. log("moveRight");
  console. log("moveRight");
  var noofbottles = Math.floor(money / 1.6);
- console. log("buyMilk");
+ console. log("buy "  + noofbottles +  " bottles of Milk");
  console. log("moveleft");
  console. log("moveleft");
  console. log("moveDown");
