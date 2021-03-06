@@ -1,0 +1,23 @@
+function getMilk() { 
+ console. log("leavehouse");
+ console. log("moveRight");
+ console. log("moveRight");
+ console. log("moveUP");
+ console. log("moveUP");
+ console. log("moveUP");
+ console. log("moveUP");
+ console. log("moveRight");
+ console. log("moveRight");
+ console. log("buyMilk");
+ console. log("moveleft");
+ console. log("moveleft");
+ console. log("moveDown");
+ console. log("moveDown");
+ console. log("moveDown");
+ console. log("moveDown");
+ console. log("moveleft");
+ console. log("moveleft");
+ console. log("enterHouse");
+}
+
+getMilk();
