@@ -1,0 +1,15 @@
+prompt("what is your name?");
+prompt("what is their name?");
+
+var loveScore = Math.random() * 100;
+loveScore = Math.floor(loveScore) + 1;
+
+if (loveScore > 70){
+   alert("Your loveScore is, " + loveScore + "you love each other like kanye and kanye");
+}
+if (loveScore > 30 && loveScore < 60){
+    alert("Your loveScore is, " + loveScore);
+}
+if (love <= 30){
+    alert("Your loveScore is, " + loveScore + "you go together like oil and water.");
+}
