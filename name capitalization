@@ -1,0 +1,7 @@
+var name = prompt("enter your name");
+var firstchar = name.slice(0,1);
+var UpperCasefirstchar = firstchar.toUpperCase();
+var restofname = name.slice(1,name.length);
+var LowerCaserestofname = restofname.toLowerCase();
+var capitalizedname = UpperCasefirstchar + LowerCaserestofname;
+alert("Hello" + " " + capitalizedname);
